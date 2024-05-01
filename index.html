@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-    <img src="https://i.pravatar.cc/300?img=6" alt="Profile">
-    <h1>Alongkorn Wonteeratana</h1>
-    <h3></h3>
-    <a href="https://panyatara.co.th/"> ไปยังเว็บไซต์ของหน่วยงาน </a>
-    <br />
-    <a href="contact.html"> ติดต่อฉัน </a>
-    <hr />
-    <!-- 
-    <h3>ประสบการณ์ทำงาน</h3>
-    <ul>
-        <li>2024-2099 : ATN</li>
-        <li>2023-2023 : ATN</li>
-        <li>2022-2020 : ATN</li>
-        <li>2020-1987 : ATN</li>
-    </ul>
-    -->
-    <h3>ประสบการณ์ทำงาน (Table)</h3>
-    <table>
-        <thead>
+  <body>
+    <div class="container">
+        <div class="section-top">
+        <table id="name-table">
             <tr>
-                <th>Timeline</th>
-                <th>Company</th>
+              <td style="width: 185px;">
+                  <img id="profile" src="https://i.pravatar.cc/175?img=6" alt="Profile" />
+              </td>
+              <td>
+                  <h1>อลงกรณ์ วงศ์ธีระธนะ</h1>
+                  <a href="#alltraining"> บริษัท ออลล์ เทรนนิ่ง จํากัด </a>
+                  <p>หน้านี้เป็นส่วนหนึ่งของหลักสูตร Fullstrack Developer</p>
+              </td>
             </tr>
-        </thead>
-        <tr>
-            <td>2024-2099</td>
-            <td>ATN Company</td>
-        </tr>
-        <tr>
-            <td>2023-2023</td>
-            <td>ATN Company</td>
-        </tr>
-        <tr>
-            <td>2022-2020</td>
-            <td>ATN Company</td>
-        </tr>
-        <tr>
-            <td>2020-1987</td>
-            <td>ATN Company</td>
-        </tr>
-    </table>
-</body>
-
+          </table>
+        </div>
+        <div class="section-center">
+            <h3>ประสบการณ์ทำงาน</h3>
+            <table id="profile-table">
+              <thead>
+                <tr>
+                  <th>Timeline</th>
+                  <th>Company</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>2024-9999</td>
+                <td>ออลล์ เทรนนิ่ง จํากัด</td>
+              </tr>
+              <tr>
+                <td>2023-2023</td>
+                <td>ออลล์ เทรนนิ่ง จํากัด</td>
+              </tr>
+              <tr>
+                <td>2022-2020</td>
+                <td>ออลล์ เทรนนิ่ง จํากัด</td>
+              </tr>
+              <tr>
+                <td>2020-1987</td>
+                <td>ออลล์ เทรนนิ่ง จํากัด</td>
+              </tr>
+            </table>
+        </div>
+        <div class="section-bottom">
+            <a href="contact.html"> ติดต่อฉัน </a>
+        </div>
+    </div>
+  </body>
 </html>
